@@ -1,3 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 .green{
     background-color: green;
 }
+.box{
+    background: url(../CHILDBOOK/jpg/fon.jpg);
+    height: 1000px;
+    background-size: cover;
+    text-align: center;
+    block-size: center;
+}
+.car{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    overflow: hidden;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.train{
+    width: 200px;
+    height: 150px;
+    background-color: green;
+    overflow: hidden;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.paint{
+    width: 200px;
+    height: 80px;
+    background-color: green;
+    overflow: hidden;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+.carr{
+    transform: scale(0.9);
+}
+.pain{
+    transform: scale(0.9);
+
+}
+.pain:hover{
+    transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+}
+.carr:hover{
+    transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+}
+.trai:hover{
+    transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+}
+
+
+
+    
