@@ -4,6 +4,7 @@
     border: 0;
 }
 .green{
+    font-family: monospace;
     background-color: green;
 }
 .box{
@@ -24,7 +25,7 @@
 }
 .train{
     width: 200px;
-    height: 150px;
+    height: 200px;
     background-color: green;
     overflow: hidden;
     left:0;
@@ -48,6 +49,7 @@
 
 }
 .pain:hover{
+    cursor:pointer;
     transform: scale(1.9);
     -webkit-transform: scale(1.9);
     -moz-transform: scale(1.9);
@@ -55,6 +57,7 @@
     -o-transform: scale(1.9);
 }
 .carr:hover{
+    cursor:pointer;
     transform: scale(1.9);
     -webkit-transform: scale(1.9);
     -moz-transform: scale(1.9);
@@ -62,12 +65,22 @@
     -o-transform: scale(1.9);
 }
 .trai:hover{
+    cursor:pointer;
     transform: scale(1.9);
     -webkit-transform: scale(1.9);
     -moz-transform: scale(1.9);
     -ms-transform: scale(1.9);
     -o-transform: scale(1.9);
+    
 }
+.cartext{
+    font-family: fantasy;
+}
+.traintext{
+    font-family: cursive;
+}
+
+
 
 
 
