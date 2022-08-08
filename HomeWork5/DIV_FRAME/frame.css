@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Marck+Script&display=swap');
+.right{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/right1.png);
+    background-position: 100% 0%;
+    background-repeat: repeat-y;
+    position: absolute;
+}
+.left{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/right.png);
+    background-position: 0% 100%;
+    background-repeat: repeat-y;
+    position:absolute
+}
+.top{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/top.png);
+    background-position: 100% 0%;
+    background-repeat: repeat-x;
+    position:absolute
+}
+.botton{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/botton.png);
+    background-position: 0% 100%;
+    background-repeat: repeat-x;
+    position:absolute
+}
+.left-top{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/left-top.png);
+    background-position: 0% 0%;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:1;
+}
+.right-top{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/right-top.png);
+    background-position: 100% 0%;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:2;
+}
+.left-botton{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/left-botton.png);
+    background-position: 0% 100%;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:3;
+}
+.right-botton{
+    height:100vh;
+    width:100vw;
+    background-image: url(png/right-botton.png);
+    background-position: 100% 100%;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:4;
+}
+
+.text{
+    background-image:url(png/Sky_Clouds_Rays_of_light_470197.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height:90vh;
+    width:94vw;
+    margin: 3% 3% 3% 3%;
+    position:absolute;
+    z-index: 5;
+    font-size: 200%;
+    overflow: auto;
+    white-space:pre-wrap;
+    font-family:'Comforter', cursive; ;
+    text-align: center;
+}
