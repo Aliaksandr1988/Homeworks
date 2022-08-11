@@ -1,0 +1,53 @@
+body{
+    margin: 0 0 0 0;
+}
+
+.tabl{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+    font-size: 1%;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 0 70px rgb(255, 0, 0);
+    margin: 10px ;
+
+}
+th{
+ width: 5px;
+ height: 3px;
+}
+td{
+    width: 13px;
+    height: 13px;
+}
+
+.thead{
+
+    border: 1px  rgb(255, 0, 0) solid;
+    font-size: 2%;
+    
+}
+
+
+.tbody{
+
+    border: 1px  rgb(250, 0, 0) solid;
+    font-size: 2%;
+
+}
+.col{
+
+    border: 1px  rgb(255, 0, 0) solid;
+  
+}
+.col1{
+
+    border: 1px  rgb(255, 0, 0) solid;
+   
+}
+.h1{
+    text-align: center;
+    font-size: 3%;
+    color:red;
+}
+
