@@ -1,0 +1,111 @@
+.anrex{
+    display:grid;
+    grid-template-columns: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 400%;
+    color: green;
+    background-image:url("images/monaco.jpg");
+}
+.anrex2{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: green;
+    color: white;
+    font-size: large;
+}
+.body{
+    width: 80%;
+    margin: 1% 10%;
+    border: solid 15px green;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(700px auto);
+    grid-gap: 1em;
+    
+    background-color: green;
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+.text{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    background-color: aliceblue;
+    white-space: pre-wrap;
+    
+}
+.anrex3{
+    float: right;
+}
+.linate{
+        width: 100%;
+        height: 100%;
+        background-image: url("images/linate.jpg");
+        background-size: cover;
+        font-size: 400%;
+        text-align:center;
+        color: red;
+}
+.dizel{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/dizel.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+   
+}
+.jager{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/jager.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+   
+}
+.olivia{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/olivia.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+    
+}
+.magelan{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/magelan.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+    
+}
+.oskar{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/oskar.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+}
+.fon{
+    background-image: url("images/monaco.jpg");
+}
+.border{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    background-color: green;
+    font-size: large;
+    color: white;
+}

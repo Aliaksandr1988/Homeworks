@@ -1,0 +1,83 @@
+.anrex{
+    
+    text-align: center;
+    color: green;
+    font-size: 300%;
+}
+.anrexinfo{
+    background-color: green;
+    text-align: center;
+    color:white;
+    font-size: 150%;
+    white-space: pre;
+
+}
+.linate{
+    width: 20%;
+    background-image: url("images/linate.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+  
+}
+.dizel{
+    width: 20%;
+    background-image: url("images/dizel.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+   
+}
+.jager{
+    width: 20%;
+    background-image: url("images/jager.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+   
+}
+.olivia{
+    width: 20%;
+    background-image: url("images/olivia.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+    
+}
+.magelan{
+    width: 20%;
+    background-image: url("images/magelan.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+    
+}
+.oscar{
+    width: 20%;
+    background-image: url("images/oskar.jpg");
+    background-size: cover;
+    font-size: 400%;
+    text-align:center;
+    color: red;
+}
+.body{
+   border: 2px solid red;
+    font-size: large;
+    white-space: pre-wrap;
+}
+.anrex{
+    float: right;
+    background-position: top;
+
+}
+    
+
+    
+    
+
+    
