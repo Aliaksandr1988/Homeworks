@@ -1,0 +1,42 @@
+body{
+    background-image: url("img/Фон.jpg");
+}
+
+
+
+.images{
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    background-size: cover;
+    background-image: url("img/вышка.jpg");
+    
+}
+.star{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: center;   
+}
+.star1{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 910%;
+    color:rgb(155, 155, 155);
+    cursor: pointer;
+    text-align: center;
+}
+.star1:hover,
+.star1:hover ~ .star1{
+    color:red;
+}
+.say{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}

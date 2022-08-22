@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    overflow: hidden;
+  }
+  td{
+    position: relative;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+  }
+  td:before{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  td:hover::before{
+    background-color: black;
+  }
+  td:hover{
+    background-color:#ffcc00;
+  }
+  tr:hover{
+    background-color:#fff591;
+  }
+  td:after{
+    content: "";
+    position: absolute;
+    right: 1px;
+    bottom: -400px;
+    height: 800px;
+    width: 50px;
+    z-index: -1;
+  } 
+   td:hover:after{
+    background-color:#fff591;
+  }
