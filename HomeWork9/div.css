@@ -1,0 +1,139 @@
+body{
+    border-color: aquamarine;
+    color: brown;
+}
+h3{
+    margin: 0;
+    text-align: center;
+    font-size: 200%;
+}
+p{
+    margin-top: 0;
+}
+.wrapper{
+    width: 90%;
+    max-width: 940px;
+    margin:20px auto;
+    border-color:black;
+   
+}
+.home{
+    display: grid;
+    grid-gap:1px;
+    grid-auto-rows: (150px,auto);
+}
+.home > *{
+    padding:10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: silver;
+}
+.anrex{
+    height: 45%;
+    background-color: green;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50%;
+    color: white;
+
+    
+}
+.photos{
+    background: url("images/dizel.jpg");
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+}
+.news{
+   background-color: white;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    white-space: pre-wrap;
+}
+.cpecial{
+    height: 40%;
+    background-color: green;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: green;
+    color: white;
+    font-size: large;
+    float: left;
+}
+.amazing{
+    background-image: url("images/olivia.jpg");
+    display:flex;
+    flex-direction: column;
+    content: "Olivia";
+}
+.cta{
+    background-image: url("images/jager.jpg");
+    display:flex;
+    flex-direction: column;   
+}
+.cta1{
+    background-image: url("images/rico.jpg");
+    display:flex;
+    flex-direction: column;   
+}
+.cta2{
+    background-image: url("images/magelan.jpg");
+    display:flex;
+    flex-direction: column;   
+}
+.cta3{
+    background-image: url("images/linate.jpg");
+    display:flex;
+    flex-direction: column;   
+}
+@media (min-width:500px){
+    .home{
+        grid-template-columns: 1fr 1fr;
+    }
+    .anrex{
+        grid-column:1/3;
+        grid-row:1/3
+    }
+    
+}
+@media(min-width:800px){
+    .home{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: minmax(150px,auto) minmax(150px,auto);
+        grid-auto-rows: (100px,auto);
+    }
+    .anrex{
+        grid-column: 1/4;
+        grid-row: 1;
+    }
+    .cpecial{
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+    .news{
+        grid-column: 2/3;
+        grid-row: 3/6;
+    }
+    .photos{
+        grid-column: 3/3;
+        grid-row: 3/4;
+
+    }
+    .amazing{
+        grid-column: 3/3;
+        grid-row: 5/6;
+    }
+    
+}
+.anrex3{
+    float: left;
+    width: 25%;
+    
+}
