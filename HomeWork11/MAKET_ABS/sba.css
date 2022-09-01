@@ -1,0 +1,77 @@
+.img{
+    margin: auto;
+    position: relative;    
+    width: 500px;
+    height: 500px;
+   
+}
+
+.smok{
+    width: 253px;
+    height: 253px;
+    position: absolute;
+    background-image: url("img/No_smoking.png");
+    background-repeat: no-repeat;
+    top:120px;
+    left:120px; 
+    z-index: 2;   
+}
+
+.radiation{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url("img/biohazard.png");
+    top: 50px;
+    left: 50px;
+    
+}
+
+.man{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url("img/Man-and-woman.png");
+    top: 50px;
+    left: 250px;
+    
+}
+
+.inan{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-image: url("img/Yin_and_Yang.png");
+    top: 270px;
+    left: 150px;
+    z-index: 1;
+    
+}
+   .man:hover{
+    cursor:pointer;
+    transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+    z-index: 20;
+   }
+   .inan:hover{
+    cursor:pointer;
+    transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+    z-index: 5;
+   }
+   .radiation:hover{
+    cursor:pointer;
+    transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    -moz-transform: scale(1.9);
+    -ms-transform: scale(1.9);
+    -o-transform: scale(1.9);
+    z-index: 20;
+   }
+   

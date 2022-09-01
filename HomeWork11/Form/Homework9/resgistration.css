@@ -1,0 +1,143 @@
+.fon{
+    width: 100%;
+    height: auto;
+background: url("img/abstract-1850424_960_720.jpg");
+background-size: cover;
+
+
+}
+.body{
+    width: 50%;
+    height: 100%;
+    margin: 1% 25%;
+   
+    display:grid;
+   
+    grid-auto-rows: minmax(700px auto);
+    grid-gap: 1px;
+    background:url("img/body.jpg");
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+}
+.form{
+    display:grid;
+    grid-template-columns: 100%;
+
+    color: white;
+    font-size: large;
+    margin-top: 15px;
+    text-align: center;
+}
+.first{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   
+    color: white;
+    font-size: 200%;
+    margin-top: 15px;
+    text-align: center;
+}
+.sex{
+    display:grid;
+    grid-template-columns: 100%;
+   
+    color: white;
+    font-size: 150%;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.box{
+    display:grid;
+    grid-template-columns: 100%;
+
+    color: white;
+    font-size: 150%;
+    margin-top: 15px;
+    text-align: center;
+}
+.day{
+    display:grid;
+    grid-template-columns: 100%;
+
+    color: white;
+    font-size: 100%;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.button{
+    display:grid;
+    grid-template-columns: 100%;
+
+    color: white;
+    font-size: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+.reset{
+    display:grid;
+    grid-template-columns: 100%;
+
+    color: white;
+    font-size: 100%;
+    margin-top: 15px;
+    text-align: center;
+
+}
+.date{
+    display:grid;
+    grid-template-columns: 100%;
+
+    color: white;
+    font-size: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+input[type="date" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+    width: 40%;
+    height: 90%;
+    font-size: 120%;
+    background-color: white;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: red;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    background-color: blue;
+    border-image: initial;
+}
+input[type]
+ {
+    align-items: center;
+    display: inline-flex;
+    font-family: monospace;
+    padding-inline-start: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0px;
+ }
