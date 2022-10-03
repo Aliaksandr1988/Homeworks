@@ -10,12 +10,27 @@
 //   return result;
 // }
 // console.log(Reverse(num));
+ 
 
-function fn(a,b) {
-    let res =1
-    for(let i =0;i<b;i++){
-        res=res*a
-        console.log(res,i);
-    }   
-    console.log(fn); 
-}
+
+
+
+// function fn(a,b) {
+//     let res =1
+//     for(let i =0;i<b;i++){
+//         res=res*a
+//         console.log(res,i);
+//     }   
+//     console.log(fn); 
+// }
+
+
+
+
+
+
+// function showName() {
+// 	console.log(arguments.callee.name);
+// }
+// showName();
+
